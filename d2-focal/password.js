@@ -55,10 +55,10 @@
 const pass = process.argv[2];
 
 const code = {
-  a: 4,
-  e: 3,
-  o: 0,
-  l: 1,
+  a: "4",
+  e: "3",
+  o: "0",
+  l: "1",
 };
 
 const obfuscate = (password, encoding) => {
